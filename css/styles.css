@@ -1,0 +1,57 @@
+/* Geral - O asterístico padroniza todos os elementos da página. */
+
+a {
+   text-decoration: none; 
+}
+
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+body {
+    position: absolute;
+    min-height: 90vh;
+    font-family: Lato;
+    background-image: url("/Roger/gaita/img/mulher_escuro.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 4rem;
+}
+
+
+/* Cabeçalho e Banner  */
+
+#marca {
+    background-color: rgba(37, 20, 185, 0.8);
+    padding: 1rem;
+    box-shadow: 2px 2px #f1ecec;
+    width: 100%;
+    
+}   
+
+.banner {
+    max-width: 50%;
+    padding: 4rem;
+    position: absolute;
+}
+
+.banner h2 {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+.menu_topo{
+    position: relative;
+    font-family: Lato;
+    left: 72%;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+}
+

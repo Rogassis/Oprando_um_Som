@@ -1,0 +1,4 @@
+SELECT * FROM usuario u JOIN enderecos e ON u.id_aluno = e.id_endereco;
+
+Comando certo!
+SELECT usuario.nome,usuario.telefone,usuario.email,usuario.cpf,usuario.perfil,usuario.cursos, enderecos.cep,enderecos.rua,enderecos.numero,enderecos.bairro,enderecos.cidade,enderecos.uf,enderecos.ibge FROM usuario INNER JOIN enderecos ON usuario.id_aluno = enderecos.id_aluno;
